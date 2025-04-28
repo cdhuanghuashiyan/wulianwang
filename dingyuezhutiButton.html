@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>校园农场智能物联系统</title>
+<style type="text/css">
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+<table width="1066" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="145" height="47" align="center"><a href="index.html">首页</a></td>
+    <td width="921"><h1><strong>校园农场智能物联系统</strong></h1></td>
+  </tr>
+  <tr>
+    <td rowspan="2" valign="top"><table width="200" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center"><p>&nbsp;</p>
+          <p><a href="fabuzhutiLight.html">发布主题Light数据</a></p>
+          <p>&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td height="78" align="center"><a href="dingyuezhutiButton.html">订阅主题Button数据</a></td>
+      </tr>
+      <tr>
+        <td align="center"><p>&nbsp;</p>
+          <p><a href="guangzhaozhinengwulian.html">如何实现智能物联</a></p>
+          <p>&nbsp;</p></td>
+      </tr>
+    </table></td>
+    <td height="362" align="left" valign="top"><h2>智能光照子系统</h2>
+    <p><span data-slate-fragment="JTVCJTdCJTIydHlwZSUyMiUzQSUyMnBhcmFncmFwaCUyMiUyQyUyMmNoaWxkcmVuJTIyJTNBJTVCJTdCJTIydGV4dCUyMiUzQSUyMiVFMiU4MCU5QyVFMiU4MCU5RCVFNiVBMCVBMSVFNSU5QiVBRCVFNSU4NiU5QyVFNSU5QyVCQSVFMiU4MCU5QyVFMiU4MCU5RCVFNyU4OSVBOSVFOCU4MSU5NCVFNyVCMyVCQiVFNyVCQiU5RiVFNSU4QyU4NSVFNiU4QiVBQyVFNiU5OSVCQSVFOCU4MyVCRCVFNSU4NSU4OSVFNyU4NSVBNyVFNSVBRCU5MCVFNyVCMyVCQiVFNyVCQiU5RiVFRiVCQyU4QyVFOCU4NyVBQSVFNSU4QSVBOCVFOSU4MCU5QSVFOSVBMyU4RSVFNSVBRCU5MCVFNyVCMyVCQiVFNyVCQiU5RiVFRiVCQyU4QyVFOCU4NyVBQSVFNSU4QSVBOCVFNyU4MSU4QyVFNiVCQSU4OSVFNSVBRCU5MCVFNyVCMyVCQiVFNyVCQiU5RiVFRiVCQyU4QyVFNiU5OSVCQSVFOCU4MyVCRCVFNiVCMCVCNCVFNCVCRCU4RCVFNiU4RSVBNyVFNSU4OCVCNiVFNSVBRCU5MCVFNyVCMyVCQiVFNyVCQiU5RiUyMiU3RCU1RCU3RCU1RA==">&ldquo;校园农场&rdquo;物联系统包括智能光照子系统，自动通风子系统，自动灌溉子系统，智能水位控制子系统。其中智能光照子系统是校园农场物联网系统中发挥着重要的作用，实验板通过物联数据中台订阅Button主题数据从而控制实验板的LED灯的开关。</p>
+    <p>步骤如下：    </p>
+    <p>步骤1：新建主题名Button.,类别：控制指令</p>
+    <p><img src="tupian/xinjianzhuti2.jpg" alt="" width="499" height="339" /></p>
+<p>步骤3：连接信息科技实验板，打开信息科技实验板编程工具，    打开"智能光照子系统"烧录并运行</p>
+    <p><img src="tupian/zhinengguangzhaochengxu.jpg" alt="" width="663" height="563" /></p>
+    <p>步骤:4：在物联数据中台运行项目</p>
+    <p><img src="tupian/yunxingxiangmu.jpg" alt="" width="533" height="85" /></p>
+    <p>*注意：确保实验板顺利订阅到物联数据中台的Button</p>
+    <p>需修改程序第11行userID和第12行projectID的值（参考视频如下）</p>
+    <p>
+      <object classid="clsid:166B1BCA-3F9C-11CF-8075-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/director/sw.cab#version=10,1,1,0" width="550" height="417">
+        <param name="src" value="tupian/shipin1.mp4" />
+        <embed src="tupian/shipin1.mp4" pluginspage="http://www.adobe.com/shockwave/download/" width="550" height="417"></embed>
+      </object>
+    </p>
+    <p>步骤5：</p>
+    <p>发送消息内容1</p>
+    <p><img src="tupian/fasongbuttonxiaoxi1.jpg" alt="" width="701" height="262" /></p>
+    <p>观察实验板的RGB灯是否打开</p>
+    <p><img src="tupian/LEDkai.jpg" alt="" width="390" height="280" /></p>
+    <p>发送消息内容0</p>
+    <p><img src="tupian/fasongbuttonxiaoxi0.jpg" alt="" width="671" height="245" /></p>
+    <p>观察实验板的RGB灯是否关闭</p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
